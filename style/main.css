@@ -1,3 +1,4 @@
+/*  Main CSS */
 * {
   box-sizing: border-box;
 }
@@ -10,4 +11,39 @@ body {
 html {
   font-size: 62.5%;
   font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/*  Header */
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  padding: 0.8rem 1.5rem;
+}
+
+.main-nav {
+  display: inline-block;
+}
+
+.main-nav__items {
+  list-style: none;
+  padding: 1rem;
+}
+
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-align: right;
+  vertical-align: middle;
 }
