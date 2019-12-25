@@ -15,9 +15,10 @@ html {
 
 
 /*  Header */
-header {
+.main-header {
   display: flex;
   justify-content: space-between;
+  background: #acb8c9;
 }
 
 .logo {
@@ -27,7 +28,8 @@ header {
 
 .logo a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  color: #090c2d;
 }
 
 .main-nav__items {
@@ -41,5 +43,15 @@ header {
 
 .main-nav__item a {
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  color: #090c2d;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+
+.main-nav__item a:active,
+.main-nav__item a:hover {
+  color: #acb8c9;
+  background: #090c2d;
 }
