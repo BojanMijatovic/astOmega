@@ -60,6 +60,5 @@ color -dark1 : #090c2d
 
 .main-nav__item a:active,
 .main-nav__item a:hover {
-  color: #acb8c9;
-  background: #090c2d;
+  border-bottom: solid 2px #090c2d;
 }
