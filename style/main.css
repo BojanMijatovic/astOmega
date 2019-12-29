@@ -96,6 +96,8 @@ html {
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
+  margin-top: 3rem;
+  text-transform: uppercase;
 }
 
 
@@ -122,6 +124,6 @@ html {
 
 .game__img img {
   border-radius: 2rem;
-  margin: 1.5rem;
+  margin: 2.5rem;
   box-shadow: #090c2d 1px 1px 1px;
 }
